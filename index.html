@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Breezy</title>
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom css file link -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Swiperjs cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- Bootstrap cdn link -->
+
+
+
+</head>
+
+<body>
+    <!-- header section start -->
+    <header class="header">
+
+        <div class="header-1">
+            <a href="#" class="logo"><img src="./assets/img/Logo-carbreezy.jpg" alt=""></a>
+
+            <form action="" class="search-form">
+                <input type="text" name="" placeholder="Search here..." id="search-box" class="search-input">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="form-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <ul class="header-2-navbar">
+                <li><a href="#home">home</a></li>
+                <li><a href="#brands">brands</a></li>
+                <li><a href="#newcars">new cars</a></li>
+                <li><a href="#usedcars">used cars</a></li>
+                <li><a href="#blogs">blogs</a></li>
+                <li><a href="#contactus">contact us</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <!-- header section end -->
+
+    <!-- bottom navbar -->
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#brands" class="fas fa-list"></a>
+        <a href="#newcars" class="fas fa-car"></a>
+        <a href="#blogs" class="fas fa-tags"></a>
+        <a href="#contactus" class="fas fa-comments"></a>
+    </nav>
+
+            <!-- login form -->
+    <div class="form-container">
+        <div class="container">
+            <div class="forms">
+                <div id="close-btn" class="fas fa-times"></div>
+                <div class="form login">
+                    <span class="title">Login</span>
+    
+                    <form action="#" method="post">
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your email" required>
+                            <i class="icon fas fa-envelope"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Enter your password" required>
+                            <i class="icon fas fa-lock"></i>
+                            <i class="showHidePw fas fa-eye-slash"></i>
+                        </div>
+    
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" name="" id="logCheck">
+                                <label for="logCheck" class="text">remember me</label>
+                            </div>
+    
+                            <a href="#" class="text">Forgot password?</a>
+                        </div>
+    
+                        <div class="input-field button">
+                            <input type="button" value="login now">
+                        </div>
+                    </form>
+    
+                    <div class="login-signup">
+                        <span class="text">You don't have account?
+                            <a href="#" class="text signup-link signup-text">Signup now</a>
+                        </span>
+                    </div>
+                </div>
+                <!-- register form -->
+                <div class="form signup">
+                    <span class="title">Registration</span>
+    
+                    <form action="#" method="post">
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your name" required>
+                            <i class="icon fas fa-user"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your email" required>
+                            <i class="icon fas fa-envelope"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Create a password" required>
+                            <i class="icon fas fa-lock"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Confirm your password" required>
+                            <i class="icon fas fa-lock"></i>
+                            <i class="showHidePw fas fa-eye-slash"></i>
+                        </div>
+    
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" name="" id="signCheck">
+                                <label for="signCheck" class="text">remember me</label>
+                            </div>
+
+                        </div>
+    
+                        <div class="input-field button">
+                            <input type="button" value="register now">
+                        </div>
+                    </form>
+    
+                    <div class="login-signup">
+                        <span class="text">Already a member?
+                            <a href="#" class="text signup-text login-link">login now</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home section start -->
+
+    <section class="home" id="home">
+        <div class="row">
+
+            <div class="content">
+                <h3>car <span>breezy</span> </h3>
+                <p>Take All Your souls to drive</p>
+                <a href="#newcars" class="btn-main">shop now</a>
+            </div>
+
+            <div class="swiper cars-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="./assets/img/Mercedes-Logo.svg.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./assets/img/bmw-01-logo-svg-vector.svg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./assets/img/Lexus-logo.png"alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./assets/img/ford-logo.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img width="350px" height="100px" src="./assets/img/Chevrolet-logo.png" alt=""></a>
+                </div>
+                <div class="swiper-button-next" style="color:var(--green);"></div>
+                <div class="swiper-button-prev" style="color:var(--green);"></div>
+                <img src="./assets/img/stand.png" class="stand" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- icons section start -->
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-paper-plane"></i>
+            <div class="content">
+                <h3>Delivery in as little as 72-Hours</h3>
+                <p>Stay at home, keep your pajamas on, and your vehicle will be delivered to your front door in as
+                    little as 72 hours</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-tools"></i>
+            <div class="content">
+                <h3>Carbreezy Covered</h3>
+                <p>Every vehicle in our inventory comes protected by a lifetime powertrain warranty, 10 years of
+                    roadside assistance, and more.</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-chart-line"></i>
+            <div class="content">
+                <h3>Over 700 vehicles to choose from</h3>
+                <p>With one of the largest used vehicle inventories in the northwest, you're definitely going to find
+                    the right car for you on CarBreezy.</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-clipboard-check"></i>
+            <div class="content">
+                <h3>120-Point Inspection</h3>
+                <p>All of our vehicles are thoroughly inspected to make sure they are in the best condition before being
+                    delivered.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Icons section end -->
+
+
+    <!-- Brands section start -->
+    <section class="brands" id="brands">
+        <h1 class="heading"> <span>car brands</span> </h1>
+        <div class="swiper brands-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+
+                    <div class="image">
+                        <img src="./assets/img/bmw-01-logo-svg-vector.svg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>BMW</h3>
+                        <div class="content-brandscar">
+                            It takes time to become timeless
+                        </div>
+                        <a href="#" class="btn-main">explore the models</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/img/Mercedes-Logo.svg.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Mercedes</h3>
+                        <div class="content-brandscar">
+                            It takes time to become timeless
+                        </div>
+                        <a href="#" class="btn-main">explore the models</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/img/Chevrolet-logo.png" alt="" width="350px" height="150px">
+                    </div>
+                    <div class="content">
+                        <h3>Chevrolet</h3>
+                        <div class="content-brandscar">
+                            It takes time to become timeless
+                        </div>
+                        <a href="#" class="btn-main">explore the models</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/img/ford-logo.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Ford</h3>
+                        <div class="content-brandscar">
+                            It takes time to become timeless
+                        </div>
+                        <a href="#" class="btn-main">explore the models</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/img/Lexus-logo.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Lexus</h3>
+                        <div class="content-brandscar">
+                            It takes time to become timeless
+                        </div>
+                        <a href="#" class="btn-main">explore the models</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next" style="color:var(--green) ;"></div>
+            <div class="swiper-button-prev" style="color:var(--green) ;"></div>
+        </div>
+    </section>
+    <!-- Brands section end -->
+
+    <!-- Future Cars Section start-->
+    <section class="futurecars" id="newcars">
+        <h1 class="heading"> <span>new cars</span> </h1>
+        <div class="future-container">
+            
+            <div class="wrapper">
+                <div class="box2">
+                    <img src="./assets/img/car1-bwm.png" alt="">
+                    <div class="description">
+                        <span>2019</span>
+                        <h5> bmw m5 <span>competition</span></h5>
+                        <span>28K miles</span>
+                        <h4>$84,996</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="box2">
+                    <img src="./assets/img/car2-ford-png.jpeg" alt="">
+                    <div class="description">
+                        <span>2019</span>
+                        <h5>ford ranger <span>lariat crew</span></h5>
+                        <span>28K miles</span>
+                        <h4>$37,998</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="box2">
+                    <img src="./assets/img/car3-lexus.jpeg" alt="">
+                    <div class="description">
+                        <span>2020</span>
+                        <h5>lexus <span>is f sport</span></h5>
+                        <span>11K miles</span>
+                        <h4>$46,299</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="box2">
+                    <img src="./assets/img/car4-mercedes.png" alt="">
+                    <div class="description">
+                        <span>2018</span>
+                        <h5>Mercedes C-Class <span> C43 AMG AWD</span></h5>
+                        <span>41K miles</span>
+                        <h4>$44,999</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="box2">
+                    <img src="./assets/img/car5-chevrolet.png" alt="">
+                    <div class="description">
+                        <span>2017</span>
+                        <h5>chevrolet camaro <span>1SS</span></h5>
+                        <span>32K miles</span>
+                        <h4>$37,549</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="box2">
+                    <img src="./assets/img/car6-chevrolet.jpeg" alt="">
+                    <div class="description">
+                        <span>2020</span>
+                        <h5>chevrolet colorado <span>w/t crew</span></h5>
+                        <span>8K miles</span>
+                        <h4>$34,549</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Future Cars Section end-->
+
+     <!-- Future Cars Section start-->
+     <section class="usedcars" id="usedcars">
+        <h1 class="heading"> <span>used cars</span> </h1>
+        <div class="used-container">
+            
+            <div class="wrapper">
+                <div class="box2">
+                    <img src="./assets/img/car1-bwm.png" alt="">
+                    <div class="description">
+                        <span>2019</span>
+                        <h5> bmw m5 <span>competition</span></h5>
+                        <span>28K miles</span>
+                        <h4>$84,996</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="box2">
+                    <img src="./assets/img/car2-ford-png.jpeg" alt="">
+                    <div class="description">
+                        <span>2019</span>
+                        <h5>ford ranger <span>lariat crew</span></h5>
+                        <span>28K miles</span>
+                        <h4>$37,998</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="box2">
+                    <img src="./assets/img/car3-lexus.jpeg" alt="">
+                    <div class="description">
+                        <span>2020</span>
+                        <h5>lexus <span>is f sport</span></h5>
+                        <span>11K miles</span>
+                        <h4>$46,299</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="box2">
+                    <img src="./assets/img/car4-mercedes.png" alt="">
+                    <div class="description">
+                        <span>2018</span>
+                        <h5>Mercedes C-Class <span> C43 AMG AWD</span></h5>
+                        <span>41K miles</span>
+                        <h4>$44,999</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="box2">
+                    <img src="./assets/img/car5-chevrolet.png" alt="">
+                    <div class="description">
+                        <span>2017</span>
+                        <h5>chevrolet camaro <span>1SS</span></h5>
+                        <span>32K miles</span>
+                        <h4>$37,549</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="box2">
+                    <img src="./assets/img/car6-chevrolet.jpeg" alt="">
+                    <div class="description">
+                        <span>2020</span>
+                        <h5>chevrolet colorado <span>w/t crew</span></h5>
+                        <span>8K miles</span>
+                        <h4>$34,549</h4>
+                    </div>
+                    <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Future Cars Section end-->
+    
+    <!-- Blogs section start -->
+    <section class="banner" id="blogs">
+        <h1 class="heading"> <span>Blogs</span> </h1>
+        <div class="banner-box">
+            <h4> <i class="fas fa-clock"></i> 18 JULY 2022</h4>
+            <span>huracán</span>
+            <h2>EXCLUSIVE TEMPORARY LAMBORGHINI LOUNGE IN PORTO CERVO</h2>
+            <button class="white">Read More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4> <i class="fas fa-clock"></i> 15 JULY 2022</h4>
+            <span>huracán</span>
+            <h2>HURACÁN TECNICA: 12 (CHEEKY) QUESTIONS WITH MITJA BORKERT</h2>
+            <button class="white">Read More</button>
+        </div>
+    </section>
+    <!-- Blogs section end -->
+
+    <!-- Newsletter Section start -->
+    <section class="newsletter">
+
+        <form action="">
+            <h3>subcribe for latest updates</h3>
+            <input type="email" name="" placeholder="enter your email" id="" class="box">
+            <input type="submit" value="subscribe" class="btn-main">
+        </form>
+    </section>
+    <!-- Newsletter section end -->
+
+    <!-- Footer start-->
+    <footer class="footer" id="contactus">
+        <div class="col">
+            <img class="logo" src="./assets/img/Logo-carbreezy.jpg" style=" width: 120px;
+            height: 35px;" alt="">
+            <h4>Contact</h4>
+            <p> <strong>Address:</strong> 35/6 D5 Street, Ward 25, Binh Thanh District, Ho Chi Minh City, Vietnam </p>
+            <p> <strong>Phone:</strong> 18001779 </p>
+            <p> <strong>Hours:</strong> 8:00 - 17:00, Mon - Sun </p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">about us</a>
+            <a href="#">delivery information</a>
+            <a href="#">privacy policy</a>
+            <a href="#">terms & conditions</a>
+            <a href="#">contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">sign in</a>
+            <a href="#">view cart</a>
+            <a href="#">my wishlist</a>
+            <a href="#">track my order</a>
+            <a href="#">help</a>
+        </div>
+
+        <div class="col payment">
+            <h4>Payment Gatesway</h4>
+            <p>Secured payment gatesway</p>
+            <img class="payment-img" src="./assets/img/pay.png" alt="">
+        </div>
+    </footer>
+
+ 
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Custom js file link -->
+    <script src="./assets/js/scripts.js"></script>
+    <script src="./assets/js/suggestions.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>      
+</body>
+
+</html>
